@@ -2,6 +2,6 @@ Example:
 
 @Override
     public void drawScreen(int mouseX, int mouseY, float partialTicks) {
-        BlurBuffer.updateBlurBuffer(true, 20); //- true not for editing, 20 - intesivity of blur.
+        BlurBuffer.updateBlurBuffer(true, 20); //- true not for editing, 20 - intesivity of blur. this String is important!
         BlurBuffer.blurArea(x, y, width, height, true); //x coordinat, y coordinat, width and height, true not for edit.
         
