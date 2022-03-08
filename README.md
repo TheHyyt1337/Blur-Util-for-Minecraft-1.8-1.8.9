@@ -1,2 +1,2 @@
 # Blur-Util-for-Minecraft-1.8-1.8.9
-By hyyt
+Disable Fast Render in Video Settings minecraft.
