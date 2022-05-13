@@ -82,7 +82,7 @@ public class BlurBuffer {
         lastScaleWidth = factor2;
         lastScaleHeight = factor3;
 
-        // 渲染
+     
         GL11.glEnable(GL11.GL_SCISSOR_TEST);
         RenderUtil.doGlScissor(x, y, width, height);
         GL11.glPushMatrix();
