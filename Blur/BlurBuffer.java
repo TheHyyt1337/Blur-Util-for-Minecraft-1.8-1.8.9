@@ -54,7 +54,6 @@ public class BlurBuffer {
         lastScaleWidth = factor2;
         lastScaleHeight = factor3;
 
-        // 渲染
         GL11.glEnable(GL11.GL_SCISSOR_TEST);
         RenderUtil.doGlScissor(x, y, width, height);
         GL11.glPushMatrix();
@@ -99,7 +98,6 @@ public class BlurBuffer {
     }
 
     public static void updateBlurBuffer(boolean setupOverlay, int intesivity) {
-        // 以60帧每秒的速度更新 FrameBuffer
         if (updateTimer.delay(1000 / 60f, true) && blurShader != null) {
             mc.getFramebuffer().unbindFramebuffer();
 
