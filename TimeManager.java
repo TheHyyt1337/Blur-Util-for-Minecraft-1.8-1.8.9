@@ -1,5 +1,3 @@
-package raptor.util;
-
 public class TimeManager {
         public long lastMs;
 
